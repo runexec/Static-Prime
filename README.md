@@ -166,7 +166,7 @@ With the default style template, this is what the new page looks like.
 
 - - -
 
-<img src="tut-imgs/9.png" alt="image not found" />
+<img src="tut-imgs/10.png" alt="image not found" />
 
 - - -
 
@@ -179,7 +179,7 @@ The static index is generated on every save event. Here's how the page is listed
 
 - - -
 
-<img src="tut-imgs/10.png" alt="image not found" />
+<img src="tut-imgs/11.png" alt="image not found" />
 
 - - -
 
