@@ -52,11 +52,21 @@ Once logged in as admin, place your mouse over the black bar at the top of the s
 
 **Before**
 
+- - -
 <img src="tut-imgs/1.png" alt="image not found" />
+
+- - -
+
 
 **After**
 
+
+- - -
+
 <img src="tut-imgs/2.png" alt="image not found" />
+
+- - -
+
 
 The following is a description of the image that follows after the next text body.
 
@@ -70,7 +80,13 @@ The following is a description of the image that follows after the next text bod
 
 * The save button will write a flat file read to be served.
 
+
+- - -
+
 <img src="tut-imgs/3.png" alt="image not found" />
+
+- - -
+
 
 ## Editor Input
 
@@ -80,45 +96,93 @@ The following is a description of the image that follows after the next text bod
 
 * The section preview is updated on every key press.
 
+
+- - -
+
 <img src="tut-imgs/4.png" alt="image not found" />
+
+- - -
+
 
 You have to click the apply button to add it to your final page preview.
 
+
+- - -
+
 <img src="tut-imgs/5.png" alt="image not found" />
+
+- - -
+
 
 Each time you add a section, it gets appended to the final page preview.
 
+
+- - -
+
 <img src="tut-imgs/6.png" alt="image not found" />
+
+- - -
+
 
 ## Layout Arrangement
 
 When you put your mouse over a page section, that section's menu will be displayed along with a dotted outline.
 
+
+- - -
+
 <img src="tut-imgs/7.png" alt="image not found" />
+
+- - -
+
 
 To alter the layout you can click the swap or remove buttons. When clicking the swap button, you will also have to click another section's swap button for the swap to take place. The header in this image is swapped with the third section.
 
+
+- - -
+
 <img src="tut-imgs/8.png" alt="image not found" />
+
+- - -
+
 
 ## Saving Web Pages
 
 In the following image, the access path is set to "example/category/hello world",
 and the page title is set to "This is my title".
 
+
+- - -
+
 <img src="tut-imgs/9.png" alt="image not found" />
+
+- - -
+
 
 Clicking save make the proper directories and then write to the file "example/category/hello world". You'll be redirected to the new page once this has been completed.
 
 With the default style template, this is what the new page looks like.
 
+
+- - -
+
 <img src="tut-imgs/10.png" alt="image not found" />
+
+- - -
+
 
 The static index is generated on every save event. Here's how the page is listed in the static index.
 
 
 <i>Notice that the file name becomes the link and the parent paths become the header of the files</i>
 
+
+- - -
+
 <img src="tut-imgs/10.png" alt="image not found" />
+
+- - -
+
 
 ## Editing Web Pages
 
