@@ -2,6 +2,10 @@
 
 A static website editor and server written in Clojure and ClojureScript.
 
+<b>
+<a href="https://github.com/runexec/Static-Prime/#visual">Visual Documentation</a>
+</b>
+
 Supports
 * in browser mouse only layout arrangement
 * dynamic template loading for static files
@@ -10,11 +14,10 @@ Supports
 * html and markdown editing
 * write, edit, delete pages
 
+
+<b>Install</b>
+
 current version ```alpha-1 - Initial Release```
-
-More documentation coming soon!
-
-## Install
 
 ```bash
 # Download
@@ -29,7 +32,7 @@ tar xf Alpha-1.tar.gz; cd Static-Prime-Alpha-1/
 
 lein cljsbuild once
 ```
-## Run
+<b>Run</b>
 
 ```bash
 lein ring server
@@ -46,6 +49,7 @@ Default Admins
    "admin" "admin"})
 ```
 ## Editor
+<a id="visual" name="visual"></a>
 
 Once logged in as admin, place your mouse over the black bar at the top of the screen. The editor should drop down and look like the follow images.
 
