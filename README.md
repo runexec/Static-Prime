@@ -3,10 +3,6 @@
 
 A static website editor and server written in Clojure and ClojureScript.
 
-<b>
-<a href="https://github.com/runexec/Static-Prime/#visual">Visual Documentation</a>
-</b>
-
 Supports
 * in browser mouse only layout arrangement
 * dynamic template loading for static files
@@ -15,7 +11,11 @@ Supports
 * html and markdown editing
 * write, edit, delete pages
 
-
+<b>
+<a href="https://github.com/runexec/Static-Prime/#visual">Visual Documentation</a>
+<br />
+<a href="www.dailymotion.com/video/x17pggk_high-resolution-static-prime-a-static-website-editor-and-server-written-in-clojure-and-clojurescrip_tech">Video Demo</a>
+</b>
 
 <b>Install</b>
 
