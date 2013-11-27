@@ -4,15 +4,13 @@ A static website editor and server written in Clojure and ClojureScript.
 
 Supports
 * in browser mouse only layout arrangement
+* dynamic template loading for static files
+* static site index
+* multiple admins
 * html and markdown editing
 * write, edit, delete pages
-* style templates
-* static site index
-* dynamic template loading for static files
-* multiple admins
 
 current version ```alpha-1 - Initial Release```
-
 
 More documentation coming soon!
 
