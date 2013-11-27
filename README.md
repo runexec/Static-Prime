@@ -1,4 +1,5 @@
-# Static Prime
+# Static Prime 
+[![endorse](https://api.coderwall.com/runexec/endorsecount.png)](https://coderwall.com/runexec)
 
 A static website editor and server written in Clojure and ClojureScript.
 
@@ -13,6 +14,7 @@ Supports
 * multiple admins
 * html and markdown editing
 * write, edit, delete pages
+
 
 
 <b>Install</b>
