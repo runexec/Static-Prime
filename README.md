@@ -48,8 +48,11 @@ Default Admins
   {"user1" "password1"
    "admin" "admin"})
 ```
-## Editor
+
 <a id="visual" name="visual"></a>
+
+## Editor
+
 
 Once logged in as admin, place your mouse over the black bar at the top of the screen. The editor should drop down and look like the follow images.
 
