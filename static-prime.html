@@ -1,0 +1,165 @@
+<html>
+  <head>
+
+    <style>
+
+     .spsection:hover {
+       border-style: dotted;
+       border-width: 2px;
+     }
+
+     .spsection raw { 
+       display: none;
+       margin: 5px;
+       width: 700px;
+       background: white;
+       
+     }
+
+     .spsection:hover raw {
+       display: inline;
+     }
+
+     
+      #input-area {
+        width: 800px;
+        height: 100px;
+        max-height: 100px;
+        overflow: auto;
+       }
+     
+      #preview-area {
+        width: 800px;
+        height: 100px;
+        max-height: 100px;
+        overflow: auto;
+       }
+
+     #preview-page {
+       position:absolute;
+        top: 300px;
+        width: 800px;
+        overflow: auto;
+        word-wrap: break-word;
+       }
+
+     #input-group {
+       margin: 10px;
+       padding: 20px;
+       background: black;
+       color: white;
+       z-index: 9999;
+       position: fixed;
+       width: 800px;
+      }
+
+
+      #input-group:hover {
+       background: white;
+       color: black; 
+       border-style: dashed;
+       border-width: 1px;  
+      }
+
+      #input-group:hover a.logo {
+       display: none;
+      }
+
+      #input-group table {
+        display: none;
+       }
+
+      #input-group:hover table {
+        display: inline;
+       }
+    
+      #input-group.edit-hover {
+       background: white;
+       color: black; 
+       border-style: dashed;
+       border-width: 1px;  
+      }
+
+     #input-group.edit-hover table {
+        display: inline;
+      }
+     
+     #input-group button {
+       border-style:none;
+       margin: 5px;
+      }
+
+     #save-button {
+       border-style:none;
+       margin: 5px;
+      }
+    </style>
+
+
+  </head>
+  <body>
+    <a href="/">View Your Site</a>
+    <div id="input-group">
+      <a class="logo"> -[ Static Prime ]- </a>
+      <table>
+	<tr>
+	  <td>
+	    -[ Export ]-
+	    <p>
+	      <button id="button-export-raw">Page -> Export Raw</button>
+	      <button id="button-export-html">Page -> Export HTML</button>
+	    </p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    -[ Editor ]- 
+	    <p>
+	      <textarea id="input-area"></textarea>
+	      <br />
+	      <button id="add-section">Apply</button>
+	      <button id="cancel-section">Cancel</button>	    
+	    </p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    -[ Section Preview ]-
+	    <div id="preview-area"></div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <form id="save-form" action="/save" method="POST">
+	      -[ Access Settings ]-
+	      <br>
+	      <p>
+		Access Path: 
+		<input name="route" type="text" value=""/>
+		&nbsp;
+		Page Title:
+		<input name="title" type="text" value=""/>
+	      </p>
+	      <p>
+		(Warning: Overwrites if already exists)
+		<br />
+		<input name="html" type="hidden" id="save-html" value="" />
+		{{{csrf}}}
+		<input type="submit" id="save-button" value="Save" />
+	      </p>
+	    </form>
+	  </td>
+	</tr>
+      </table>
+    </div>
+
+    <div id="preview-page"></div>
+
+    <a  name="bottom" id="bottom"></a>
+
+    <script src="/js/goog/base.js" type="text/javascript"></script>
+    <script src="/js/static_prime.js" type="text/javascript"></script>
+    <script type="text/javascript">goog.require("static_prime.core");</script>
+    <script type="text/javascript">static_prime.core.loadEdits();</script>
+  </body>
+</html>

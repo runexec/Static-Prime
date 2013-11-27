@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <title>{{{title}}}</title>
+    <meta charset="utf-8" />
+    <style>      
+     body {
+       background: #FBFFE3;
+       color: #333333;;
+       margin: 0px auto 0px auto;
+       padding: 2px;
+       width: 800px;
+       font-size: 16pt;
+       font-family: Courier, "Lucida Console", monospace;
+     }
+
+     h1 { 
+      background: #000000;
+      color: #FF1F5A;
+      width: 100%;
+      padding: 10px;
+      margin: 5px;
+      font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+     }
+
+     h2 { 
+      background: #000000;
+      color: #FF1F5A;
+      width: 100%;
+      padding: 10px;
+      margin: 5px;
+      font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+     }
+     
+     h3 { 
+      background: #000000;
+      color: #FF1F5A;
+      width: 100%;
+      padding: 10px;
+      margin: 5px;
+      font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+     }
+    </style>
+  </head>
+  <body>
+    {{{admin}}}
+
+    <p>
+      <a href="/">Home</a> <a href="/admin">Admin</a>
+    </p>
+
+    {{{body}}}
+
+    <script src="/js/goog/base.js" type="text/javascript"></script>
+    <script src="/js/static_prime.js" type="text/javascript"></script>
+    <script type="text/javascript">goog.require("static_prime.core");</script>
+  </body>
+</html>
