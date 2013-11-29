@@ -14,7 +14,9 @@ Supports
 <b>
 <a href="https://github.com/runexec/Static-Prime/#visual">Visual Documentation</a>
 <br />
-<a href="http://www.dailymotion.com/video/x17pggk_high-resolution-static-prime-a-static-website-editor-and-server-written-in-clojure-and-clojurescrip_tech">Video Demo</a>
+<a href="https://vimeo.com/80591306">Video Demo (Vimeo)</a>
+<br />
+<a href="http://www.dailymotion.com/video/x17pggk_high-resolution-static-prime-a-static-website-editor-and-server-written-in-clojure-and-clojurescrip_tech">Video Demo (Dailymotion)</a>
 </b>
 
 <b>Install</b>
