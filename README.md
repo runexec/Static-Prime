@@ -23,6 +23,8 @@ Supports
 
 current version ```alpha-1 - Initial Release```
 
+Lein2 is required and can be found at http://leiningen.org/#install
+
 ```bash
 # Download
 
