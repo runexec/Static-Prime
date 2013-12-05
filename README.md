@@ -205,7 +205,13 @@ Go to a page of your choice and click the edit button in the admin bar.
 
 ## Changes
 
-```alpha-1 - Initial Release```
+#### alpha-2
+
+links under each category are now least to greatest sorted
+
+#### alpha-1
+
+Initial Release
 
 ## License
 

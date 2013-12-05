@@ -129,7 +129,8 @@
     (apply str
            (for [c @categories
                  :let [[c links] c
-                       header-text (-> c str (.replace "/" " ") hc/h)]
+                       header-text (-> c str (.replace "/" " ") hc/h)
+                       links (sort-by #(get-in % [2]) links)]
                  :when c]
              (hc/html 
               [:div 
