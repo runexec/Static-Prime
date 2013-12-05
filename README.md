@@ -207,11 +207,12 @@ Go to a page of your choice and click the edit button in the admin bar.
 
 #### alpha-2
 
-links under each category are now least to greatest sorted
+* links under each category are now least to greatest sorted
+* improved editing input and preview areas
 
 #### alpha-1
 
-Initial Release
+* Initial Release
 
 ## License
 

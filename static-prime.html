@@ -20,17 +20,30 @@
        display: inline;
      }
 
-     
+     #button-export-raw {
+       border-style: solid;
+       border-width: 1px;
+       padding: 2px;
+       background: #FFF999;
+      }
+
+     #button-export-html {
+       border-style: solid;
+       border-width: 1px;
+       padding: 2px;
+       background: #EEE999;
+      }
+
       #input-area {
         width: 800px;
-        height: 100px;
+        height: 300px;
         max-height: 100px;
         overflow: auto;
        }
      
       #preview-area {
         width: 800px;
-        height: 100px;
+        height: 300px;
         max-height: 100px;
         overflow: auto;
        }
@@ -88,6 +101,19 @@
        border-style:none;
        margin: 5px;
       }
+     
+      #input-group a {
+       text-decoration: none;
+      }
+
+      #input-group a:visited {
+       text-decoration: none;
+      }
+
+      #input-group a:hover {
+       text-decoration: none;
+       color: black;
+      }
 
      #save-button {
        border-style:none;
@@ -104,16 +130,6 @@
       <table>
 	<tr>
 	  <td>
-	    -[ Export ]-
-	    <p>
-	      <button id="button-export-raw">Page -> Export Raw</button>
-	      <button id="button-export-html">Page -> Export HTML</button>
-	    </p>
-	  </td>
-	</tr>
-	<tr>
-	  <td>
-	    -[ Editor ]- 
 	    <p>
 	      <textarea id="input-area"></textarea>
 	      <br />
@@ -124,7 +140,6 @@
 	</tr>
 	<tr>
 	  <td>
-	    -[ Section Preview ]-
 	    <div id="preview-area"></div>
 	  </td>
 	</tr>
@@ -140,14 +155,14 @@
 		Page Title:
 		<input name="title" type="text" value=""/>
 	      </p>
-	      <p>
-		(Warning: Overwrites if already exists)
-		<br />
-		<input name="html" type="hidden" id="save-html" value="" />
-		{{{csrf}}}
-		<input type="submit" id="save-button" value="Save" />
-	      </p>
+	      <input name="html" type="hidden" id="save-html" value="" />
+	      {{{csrf}}}
+	      (Warning: Overwrites if already exists) 
+	      <input type="submit" id="save-button" value="Save" />
+	    <a href="#"><span id="button-export-raw">Page -> Export Raw</span></a>
+	    <a href="#"><span id="button-export-html">Page -> Export HTML</span></a>
 	    </form>
+
 	  </td>
 	</tr>
       </table>
