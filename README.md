@@ -207,8 +207,9 @@ Go to a page of your choice and click the edit button in the admin bar.
 
 #### alpha-2
 
-* links under each category are now least to greatest sorted
-* improved editing input and preview areas
+* Links under each category are now least to greatest sorted
+* Improved editing input and preview areas
+* Fixed read/write errors for file names that end with white space
 
 #### alpha-1
 

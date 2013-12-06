@@ -313,7 +313,11 @@
                           (clojure.string/replace #"\.\." "")
                           io/file 
                           .getAbsolutePath
-                          io/file )
+
+                          ;; remove any whitespace at the end 
+
+                          clojure.string/trimr
+                          io/file)
                 dirs (-> route .getParent io/file)]
 
             ;; dirs must exists before files
