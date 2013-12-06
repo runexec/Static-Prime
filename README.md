@@ -210,6 +210,7 @@ Go to a page of your choice and click the edit button in the admin bar.
 * Links under each category are now least to greatest sorted
 * Improved editing input and preview areas
 * Fixed read/write errors for file names that end with white space
+* Increased editor input and preview sizes + fixed css conflict
 
 #### alpha-1
 
