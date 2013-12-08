@@ -21,18 +21,18 @@ Supports
 
 <b>Install</b>
 
-current version ```alpha-1 - Initial Release```
+current version ```alpha-2```
 
 Lein2 is required and can be found at http://leiningen.org/#install
 
 ```bash
 # Download
 
-wget https://github.com/runexec/Static-Prime/archive/Alpha-1.tar.gz
+wget https://github.com/runexec/Static-Prime/archive/Alpha-2.tar.gz
 
 # Open archive
 
-tar xf Alpha-1.tar.gz; cd Static-Prime-Alpha-1/
+tar xf Alpha-2.tar.gz; cd Static-Prime-Alpha-2/
 
 # Build JavaScript 
 
