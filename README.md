@@ -93,6 +93,7 @@ The following is a description of the image that follows after the next text bod
 
 * The save button will write a flat file read to be served.
 
+(NOTICE: This image is from the Alpha-1 release)
 
 - - -
 
@@ -205,14 +206,17 @@ Go to a page of your choice and click the edit button in the admin bar.
 
 ## Changes
 
-#### alpha-2
+alpha-2
 
 * Links under each category are now least to greatest sorted
+
 * Improved editing input and preview areas
+
 * Fixed read/write errors for file names that end with white space
+
 * Increased editor input and preview sizes + fixed css conflict
 
-#### alpha-1
+alpha-1
 
 * Initial Release
 
